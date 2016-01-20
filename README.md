@@ -11,7 +11,10 @@ Sujet d'examen ISI1-WEB.
 
 Vous devez réaliser un site Web de type blog. Le résultat demandé est en ligne à l'URL https://minimedium-correction.herokuapp.com/.
 
+![](minimedium.png)
+
 Les fonctionnalités à réaliser sont (dans cet ordre) :
+
 1. Page d'accueil affichant la liste des articles du blog.
 2. Détails sur un article.
 3. Ajout d'un nouvel article.

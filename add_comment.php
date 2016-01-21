@@ -22,9 +22,3 @@
 
     <?php include("./view/foot.php"); ?>
 </body>
-</html>
-
-<!--
-username
-articleId
-content -->

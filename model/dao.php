@@ -99,7 +99,7 @@ class DAO
             :art_content);");
 
             $statement->bindParam(":art_title", $article->art_title);
-            $statement->bindParam(":art_id", $article->art_content);
+            $statement->bindParam(":art_content", $article->art_content);
             $statement->execute();
 
         } catch(PDOException $e) {

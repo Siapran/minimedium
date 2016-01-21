@@ -11,14 +11,15 @@
         ?>
         <div class="container">
 
-
-            <div class="col-md-4">
-                <h1><a class="articleTitle" href=<?php echo 'article.php?id='.$article->art_id; ?>><?php echo $article->art_title; ?></a></h1>
-                <p>
-                    <?php echo $article->art_content ?>
-                </p>
+            <div class="row">
+                <?php include("view/article.php") ?>
             </div>
+            
+            <h3>Commentaires:</h3>
 
+            <?php
+            $list = $dao->readCommentList($article->art_id);
+            include("view/comment_list.php"); ?>
         </div>
 
     <?php else: ?>

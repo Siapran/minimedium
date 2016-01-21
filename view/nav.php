@@ -17,7 +17,7 @@
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="article_add.php">Ajouter un article</a></li>
+                <li><a href="new_article.php">Ajouter un article</a></li>
             </ul>
         </div>
 
